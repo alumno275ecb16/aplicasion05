@@ -13,8 +13,10 @@ $(document).ready(function(e) {
 		escribehistoria('la app se reinicio');
 	},false);//resume
 	document.addEventListener("online",function(){
+		esccribehistoria('la app esta en linea');
 	},false);//se conecto
 	document.addEventListener("offline",function(){
+		esccribehistoria('la app se desconecto de la red ');
 	},false);//se desconecto
 	},false);//ready device
 });//document
